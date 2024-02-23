@@ -91,22 +91,6 @@ p {
     text-decoration: none;
     margin: 25px;
 }
-.lin{
-    font-style: normal;
-    font-size: 25px;
-    line-height: 29px;
-    color: white;
-    text-decoration: none;
-    margin: 25px;
-    transition: 0.8s;
-}
-.lin:hover{ 
-    transform: translate(-35);
-    background-color: darkorange;
-    border-radius: 20px;
-    padding: 10px;
-
-}
 
 .link:hover {
     opacity: 0.4;
@@ -123,21 +107,7 @@ header {
 
 }
 
-.consulta {
-    width: 140px;
-    font-size: 15px;
-    padding: 3px;
-    height: 40px;
-    color: beige;
-    border-radius: 30px;
-    background-color: rgb(224, 137, 6);
-    text-align: center;
-    cursor: pointer;
-    transition: 0.5s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
-    position: fixed;
-    
-}
+
 
 .consulta:hover {
     transform: translate(-35);
@@ -185,7 +155,5 @@ p{
     margin: 0 auto;
     display: block;
 }
-.wpp{
-position: static;
-}
+
 }
