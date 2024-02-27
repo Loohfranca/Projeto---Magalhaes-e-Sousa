@@ -114,7 +114,7 @@ header {
     background: #0e263b;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     .ladoesquerdo {
         width: 160%;
         height: 50px;
@@ -122,33 +122,37 @@ header {
         margin: 0;
     }
     .ladodireito{
-        display: block;
+        display:block;
         height: auto;
         width: 100%;
         position: static;
+        
     }
 .img{
     position: static;
     
+    
 }
 header{
-    display: none;
+    position: relative;
+     display: flex;
 }
 .logo{
-    position: static;
+    position: sticky;
 }
 h1{
     font-size:36px ;
     font-weight:52px ;
     width:auto ;
-    margin: 58px 50px 0 50px;
+    margin: 58px 50px 0px 50px;
+
 }
 p{
     margin: 15px 40px ;
     width: auto;
-    text-align: left;
+    text-align: center;
     font-size: 30px;
-    line-height: 24px;
+    line-height: 35px;
     
 }
 .fale{
