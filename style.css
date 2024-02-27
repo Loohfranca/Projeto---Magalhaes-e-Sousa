@@ -133,13 +133,18 @@ header {
     position: static;
     
     
+    
 }
 header{
-    position: relative;
+    position: static;
      display: flex;
+     margin-left: 80px;
+     
+     
 }
 .logo{
-    position: sticky;
+    position: static;
+
 }
 h1{
     font-size:36px ;
@@ -159,6 +164,7 @@ p{
 .fale{
     margin: 0 auto;
     display: block;
+    border-bottom: none;
 }
 
 }
