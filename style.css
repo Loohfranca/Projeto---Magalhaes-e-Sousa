@@ -134,16 +134,20 @@ header {
     
     
     
+    
 }
 header{
     position: static;
      display: flex;
      margin-left: 80px;
+     margin-top: 80px;
      
      
 }
 .logo{
     position: static;
+    margin-left: 100px;
+    margin-top: 40px;
 
 }
 h1{
